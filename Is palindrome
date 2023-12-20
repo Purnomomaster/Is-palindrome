@@ -1,0 +1,6 @@
+x = input("Enter five words: ")
+sp = x
+if sp[0] == sp[4] and sp[1] == sp[3]:
+    print(sp, "is palindrome.", "\nso is malayalam","\nbut not geeks.")
+else:
+    print(sp, "is not palindrome.")
